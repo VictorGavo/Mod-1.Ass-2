@@ -1,0 +1,97 @@
+* {
+    /* border: 1px solid red; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box {
+
+    background-color: lightgray;
+    color: darkgray;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 1px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 100px;
+
+}
+
+.container {
+    margin: auto;
+    border: 1px solid lightgray;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 300px;
+    width: 500px;
+}
+
+.password {
+    padding-left: 270px;
+}
+
+button {
+    height: 30px;
+    width: 100%;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.container button {
+    background-color: #f7c548;
+
+}
+
+input {
+    width: 100%;
+    margin-right: 100px;
+}
+.create {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 500px;
+}
+
+.new-account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    margin: auto;
+    justify-content: center;
+}
+
+.text {
+    flex-grow: 0;
+}
+
+.divider {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #9f9f9f;
+}
+
+
+.footnav {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
